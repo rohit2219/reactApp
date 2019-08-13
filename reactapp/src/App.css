@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  display: block;
 }
 
 .App-logo {
@@ -35,6 +35,16 @@
   margin: 0.5%;
 }
 
+.panelborder{
+  border: 1px solid #cfcfcf;
+  border-radius: 3px;
+}
+
+.panel-heading-bottom-border{
+  border-bottom: 1px solid#cfcfcf;
+  border-radius: 2px;
+}
+
 .clearfix::after{
   content: " ";
   visibility: hidden;
@@ -50,3 +60,4 @@
     transform: rotate(360deg);
   }
 }
+
