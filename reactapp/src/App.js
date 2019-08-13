@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'react-bootstrap';
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import RouterComponentDash from "./components/RouterComponentDash/RouterComponentDash";
 import AboutComponent from "./components/AboutComponent/AboutComponent";
 
